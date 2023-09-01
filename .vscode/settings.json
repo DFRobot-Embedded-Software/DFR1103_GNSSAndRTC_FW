@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "i2cslave.h": "c",
+        "dfrobot_softeriic.h": "c",
+        "main.h": "c",
+        "l76k.h": "c",
+        "reg.h": "c",
+        "flash.h": "c",
+        "dfrobot_uart.h": "c",
+        "sd3031.h": "c",
+        "timer.h": "c",
+        "cs32l010_it.h": "c",
+        "io_mapping.h": "c",
+        "log.h": "c"
+    }
+}
