@@ -211,7 +211,7 @@ void readReg(uint8_t reg, uint8_t * buf, uint8_t len)
   Soft_IIC_Wait_Ack();
   Soft_IIC_WriteByte(reg);
   Soft_IIC_Wait_Ack();
-  Soft_IIC_Stop();
+  // Soft_IIC_Stop();   // 测试发现, 不屏蔽, SD3031 读温度会出问题
   
   Soft_IIC_Start();
   Soft_IIC_WriteByte(_addr|0x01);

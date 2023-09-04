@@ -226,7 +226,7 @@ int8_t getTemperatureC(void)
     int8_t buffer[2];
     int8_t data = 0;
     SD3031readReg(SD3031_REG_TEMP, buffer, 1);
-    printf("buffer[0] = %u\r\n", buffer[0]);
+    printf("buffer[0] = %d\r\n", buffer[0]);
     data = buffer[0];
     return data;
 }

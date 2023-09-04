@@ -86,8 +86,8 @@ Section Cross References
     dfrobot_softeriic.o(i.readReg) refers to dfrobot_softeriic.o(i.Soft_IIC_Start) for Soft_IIC_Start
     dfrobot_softeriic.o(i.readReg) refers to dfrobot_softeriic.o(i.Soft_IIC_WriteByte) for Soft_IIC_WriteByte
     dfrobot_softeriic.o(i.readReg) refers to dfrobot_softeriic.o(i.Soft_IIC_Wait_Ack) for Soft_IIC_Wait_Ack
-    dfrobot_softeriic.o(i.readReg) refers to dfrobot_softeriic.o(i.Soft_IIC_Stop) for Soft_IIC_Stop
     dfrobot_softeriic.o(i.readReg) refers to dfrobot_softeriic.o(i.Soft_IIC_ReadByte) for Soft_IIC_ReadByte
+    dfrobot_softeriic.o(i.readReg) refers to dfrobot_softeriic.o(i.Soft_IIC_Stop) for Soft_IIC_Stop
     dfrobot_softeriic.o(i.readReg) refers to dfrobot_softeriic.o(.data) for _addr
     dfrobot_softeriic.o(i.scan_i2c_address) refers to printf5.o(i.__0printf$5) for __2printf
     dfrobot_softeriic.o(i.scan_i2c_address) refers to dfrobot_softeriic.o(i.Soft_IIC_Start) for Soft_IIC_Start
@@ -1866,22 +1866,22 @@ Image Symbol Table
     i.init_l76k_gpio                         0x000038cc   Section        0  l76k.o(i.init_l76k_gpio)
     i.main                                   0x00003938   Section        0  main.o(i.main)
     i.readReg                                0x00003ad8   Section        0  dfrobot_softeriic.o(i.readReg)
-    i.sd3031Init                             0x00003b3c   Section        0  sd3031.o(i.sd3031Init)
-    i.setAddr                                0x00003b54   Section        0  dfrobot_softeriic.o(i.setAddr)
-    i.setTime                                0x00003b64   Section        0  sd3031.o(i.setTime)
-    i.set_star_type                          0x00003c5c   Section        0  l76k.o(i.set_star_type)
-    i.set_uart_baud                          0x00003d18   Section        0  l76k.o(i.set_uart_baud)
-    i.uart0Send                              0x00003dd4   Section        0  uart.o(i.uart0Send)
-    i.uart1Send                              0x00003dec   Section        0  uart.o(i.uart1Send)
-    i.uartAnalysisTimerInit                  0x00003e04   Section        0  timer.o(i.uartAnalysisTimerInit)
-    i.userSetHandle                          0x00003e8c   Section        0  main.o(i.userSetHandle)
-    i.writeReg                               0x00003fac   Section        0  dfrobot_softeriic.o(i.writeReg)
-    .constdata                               0x00003fec   Section       12  sd3031.o(.constdata)
-    .constdata                               0x00003ff8   Section      256  cs32l010_hal_uart.o(.constdata)
-    ParityTable256                           0x00003ff8   Data         256  cs32l010_hal_uart.o(.constdata)
-    .constdata                               0x000040f8   Section      129  ctype_o.o(.constdata)
-    .constdata                               0x0000417c   Section        4  ctype_o.o(.constdata)
-    table                                    0x0000417c   Data           4  ctype_o.o(.constdata)
+    i.sd3031Init                             0x00003b38   Section        0  sd3031.o(i.sd3031Init)
+    i.setAddr                                0x00003b50   Section        0  dfrobot_softeriic.o(i.setAddr)
+    i.setTime                                0x00003b60   Section        0  sd3031.o(i.setTime)
+    i.set_star_type                          0x00003c58   Section        0  l76k.o(i.set_star_type)
+    i.set_uart_baud                          0x00003d14   Section        0  l76k.o(i.set_uart_baud)
+    i.uart0Send                              0x00003dd0   Section        0  uart.o(i.uart0Send)
+    i.uart1Send                              0x00003de8   Section        0  uart.o(i.uart1Send)
+    i.uartAnalysisTimerInit                  0x00003e00   Section        0  timer.o(i.uartAnalysisTimerInit)
+    i.userSetHandle                          0x00003e88   Section        0  main.o(i.userSetHandle)
+    i.writeReg                               0x00003fa8   Section        0  dfrobot_softeriic.o(i.writeReg)
+    .constdata                               0x00003fe8   Section       12  sd3031.o(.constdata)
+    .constdata                               0x00003ff4   Section      256  cs32l010_hal_uart.o(.constdata)
+    ParityTable256                           0x00003ff4   Data         256  cs32l010_hal_uart.o(.constdata)
+    .constdata                               0x000040f4   Section      129  ctype_o.o(.constdata)
+    .constdata                               0x00004178   Section        4  ctype_o.o(.constdata)
+    table                                    0x00004178   Data           4  ctype_o.o(.constdata)
     .data                                    0x20000000   Section        1  dfrobot_softeriic.o(.data)
     _addr                                    0x20000000   Data           1  dfrobot_softeriic.o(.data)
     .data                                    0x20000002   Section        6  timer.o(.data)
@@ -2138,21 +2138,21 @@ Image Symbol Table
     initUart1ForL76K                         0x00003859   Thumb Code    98  uart.o(i.initUart1ForL76K)
     init_l76k_gpio                           0x000038cd   Thumb Code    98  l76k.o(i.init_l76k_gpio)
     main                                     0x00003939   Thumb Code   366  main.o(i.main)
-    readReg                                  0x00003ad9   Thumb Code    96  dfrobot_softeriic.o(i.readReg)
-    sd3031Init                               0x00003b3d   Thumb Code    24  sd3031.o(i.sd3031Init)
-    setAddr                                  0x00003b55   Thumb Code    10  dfrobot_softeriic.o(i.setAddr)
-    setTime                                  0x00003b65   Thumb Code   232  sd3031.o(i.setTime)
-    set_star_type                            0x00003c5d   Thumb Code   174  l76k.o(i.set_star_type)
-    set_uart_baud                            0x00003d19   Thumb Code   174  l76k.o(i.set_uart_baud)
-    uart0Send                                0x00003dd5   Thumb Code    18  uart.o(i.uart0Send)
-    uart1Send                                0x00003ded   Thumb Code    18  uart.o(i.uart1Send)
-    uartAnalysisTimerInit                    0x00003e05   Thumb Code   112  timer.o(i.uartAnalysisTimerInit)
-    userSetHandle                            0x00003e8d   Thumb Code   240  main.o(i.userSetHandle)
-    writeReg                                 0x00003fad   Thumb Code    60  dfrobot_softeriic.o(i.writeReg)
-    daysInMonth                              0x00003fec   Data          12  sd3031.o(.constdata)
-    __ctype_table                            0x000040f8   Data         129  ctype_o.o(.constdata)
-    Region$$Table$$Base                      0x00004180   Number         0  anon$$obj.o(Region$$Table)
-    Region$$Table$$Limit                     0x000041a0   Number         0  anon$$obj.o(Region$$Table)
+    readReg                                  0x00003ad9   Thumb Code    92  dfrobot_softeriic.o(i.readReg)
+    sd3031Init                               0x00003b39   Thumb Code    24  sd3031.o(i.sd3031Init)
+    setAddr                                  0x00003b51   Thumb Code    10  dfrobot_softeriic.o(i.setAddr)
+    setTime                                  0x00003b61   Thumb Code   232  sd3031.o(i.setTime)
+    set_star_type                            0x00003c59   Thumb Code   174  l76k.o(i.set_star_type)
+    set_uart_baud                            0x00003d15   Thumb Code   174  l76k.o(i.set_uart_baud)
+    uart0Send                                0x00003dd1   Thumb Code    18  uart.o(i.uart0Send)
+    uart1Send                                0x00003de9   Thumb Code    18  uart.o(i.uart1Send)
+    uartAnalysisTimerInit                    0x00003e01   Thumb Code   112  timer.o(i.uartAnalysisTimerInit)
+    userSetHandle                            0x00003e89   Thumb Code   240  main.o(i.userSetHandle)
+    writeReg                                 0x00003fa9   Thumb Code    60  dfrobot_softeriic.o(i.writeReg)
+    daysInMonth                              0x00003fe8   Data          12  sd3031.o(.constdata)
+    __ctype_table                            0x000040f4   Data         129  ctype_o.o(.constdata)
+    Region$$Table$$Base                      0x0000417c   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Limit                     0x0000419c   Number         0  anon$$obj.o(Region$$Table)
     cs32TimerFlag                            0x20000002   Data           1  timer.o(.data)
     l76kTimerFlag                            0x20000003   Data           1  timer.o(.data)
     secTimerFlag                             0x20000004   Data           2  timer.o(.data)
@@ -2200,9 +2200,9 @@ Memory Map of the image
 
   Image Entry point : 0x000000c1
 
-  Load Region LR_IROM1 (Base: 0x00000000, Size: 0x000041d4, Max: 0x00010000, ABSOLUTE)
+  Load Region LR_IROM1 (Base: 0x00000000, Size: 0x000041d0, Max: 0x00010000, ABSOLUTE)
 
-    Execution Region ER_IROM1 (Exec base: 0x00000000, Load base: 0x00000000, Size: 0x000041a0, Max: 0x00010000, ABSOLUTE)
+    Execution Region ER_IROM1 (Exec base: 0x00000000, Load base: 0x00000000, Size: 0x0000419c, Max: 0x00010000, ABSOLUTE)
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
@@ -2389,47 +2389,47 @@ Memory Map of the image
     0x00003858   0x00003858   0x00000074   Code   RO          908    i.initUart1ForL76K  uart.o
     0x000038cc   0x000038cc   0x0000006c   Code   RO          669    i.init_l76k_gpio    l76k.o
     0x00003938   0x00003938   0x000001a0   Code   RO            5    i.main              main.o
-    0x00003ad8   0x00003ad8   0x00000064   Code   RO          437    i.readReg           dfrobot_softeriic.o
-    0x00003b3c   0x00003b3c   0x00000018   Code   RO          780    i.sd3031Init        sd3031.o
-    0x00003b54   0x00003b54   0x00000010   Code   RO          439    i.setAddr           dfrobot_softeriic.o
-    0x00003b64   0x00003b64   0x000000f8   Code   RO          784    i.setTime           sd3031.o
-    0x00003c5c   0x00003c5c   0x000000bc   Code   RO          672    i.set_star_type     l76k.o
-    0x00003d18   0x00003d18   0x000000bc   Code   RO          673    i.set_uart_baud     l76k.o
-    0x00003dd4   0x00003dd4   0x00000018   Code   RO          909    i.uart0Send         uart.o
-    0x00003dec   0x00003dec   0x00000018   Code   RO          910    i.uart1Send         uart.o
-    0x00003e04   0x00003e04   0x00000088   Code   RO          548    i.uartAnalysisTimerInit  timer.o
-    0x00003e8c   0x00003e8c   0x00000120   Code   RO            7    i.userSetHandle     main.o
-    0x00003fac   0x00003fac   0x00000040   Code   RO          440    i.writeReg          dfrobot_softeriic.o
-    0x00003fec   0x00003fec   0x0000000c   Data   RO          786    .constdata          sd3031.o
-    0x00003ff8   0x00003ff8   0x00000100   Data   RO         3818    .constdata          cs32l010_hal_uart.o
-    0x000040f8   0x000040f8   0x00000081   Data   RO         4459    .constdata          mc_p.l(ctype_o.o)
-    0x00004179   0x00004179   0x00000003   PAD
-    0x0000417c   0x0000417c   0x00000004   Data   RO         4460    .constdata          mc_p.l(ctype_o.o)
-    0x00004180   0x00004180   0x00000020   Data   RO         4503    Region$$Table       anon$$obj.o
+    0x00003ad8   0x00003ad8   0x00000060   Code   RO          437    i.readReg           dfrobot_softeriic.o
+    0x00003b38   0x00003b38   0x00000018   Code   RO          780    i.sd3031Init        sd3031.o
+    0x00003b50   0x00003b50   0x00000010   Code   RO          439    i.setAddr           dfrobot_softeriic.o
+    0x00003b60   0x00003b60   0x000000f8   Code   RO          784    i.setTime           sd3031.o
+    0x00003c58   0x00003c58   0x000000bc   Code   RO          672    i.set_star_type     l76k.o
+    0x00003d14   0x00003d14   0x000000bc   Code   RO          673    i.set_uart_baud     l76k.o
+    0x00003dd0   0x00003dd0   0x00000018   Code   RO          909    i.uart0Send         uart.o
+    0x00003de8   0x00003de8   0x00000018   Code   RO          910    i.uart1Send         uart.o
+    0x00003e00   0x00003e00   0x00000088   Code   RO          548    i.uartAnalysisTimerInit  timer.o
+    0x00003e88   0x00003e88   0x00000120   Code   RO            7    i.userSetHandle     main.o
+    0x00003fa8   0x00003fa8   0x00000040   Code   RO          440    i.writeReg          dfrobot_softeriic.o
+    0x00003fe8   0x00003fe8   0x0000000c   Data   RO          786    .constdata          sd3031.o
+    0x00003ff4   0x00003ff4   0x00000100   Data   RO         3818    .constdata          cs32l010_hal_uart.o
+    0x000040f4   0x000040f4   0x00000081   Data   RO         4459    .constdata          mc_p.l(ctype_o.o)
+    0x00004175   0x00004175   0x00000003   PAD
+    0x00004178   0x00004178   0x00000004   Data   RO         4460    .constdata          mc_p.l(ctype_o.o)
+    0x0000417c   0x0000417c   0x00000020   Data   RO         4503    Region$$Table       anon$$obj.o
 
 
-    Execution Region RW_IRAM1 (Exec base: 0x20000000, Load base: 0x000041a0, Size: 0x00000d18, Max: 0x00001000, ABSOLUTE)
+    Execution Region RW_IRAM1 (Exec base: 0x20000000, Load base: 0x0000419c, Size: 0x00000d18, Max: 0x00001000, ABSOLUTE)
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
-    0x20000000   0x000041a0   0x00000001   Data   RW          441    .data               dfrobot_softeriic.o
-    0x20000001   0x000041a1   0x00000001   PAD
-    0x20000002   0x000041a2   0x00000006   Data   RW          550    .data               timer.o
-    0x20000008   0x000041a8   0x00000007   Data   RW          625    .data               i2cslave.o
-    0x2000000f   0x000041af   0x00000001   PAD
-    0x20000010   0x000041b0   0x00000002   Data   RW          675    .data               l76k.o
-    0x20000012   0x000041b2   0x00000001   Data   RW          787    .data               sd3031.o
-    0x20000013   0x000041b3   0x00000001   PAD
-    0x20000014   0x000041b4   0x00000006   Data   RW          912    .data               uart.o
-    0x2000001a   0x000041ba   0x00000002   PAD
-    0x2000001c   0x000041bc   0x00000009   Data   RW         1045    .data               cs32l010_hal.o
-    0x20000025   0x000041c5   0x00000003   PAD
-    0x20000028   0x000041c8   0x00000004   Data   RW         4083    .data               system_cs32l010.o
-    0x2000002c   0x000041cc   0x00000004   Data   RW         4425    .data               mc_p.l(stdout.o)
-    0x20000030   0x000041d0   0x00000004   Data   RW         4435    .data               mc_p.l(errno.o)
+    0x20000000   0x0000419c   0x00000001   Data   RW          441    .data               dfrobot_softeriic.o
+    0x20000001   0x0000419d   0x00000001   PAD
+    0x20000002   0x0000419e   0x00000006   Data   RW          550    .data               timer.o
+    0x20000008   0x000041a4   0x00000007   Data   RW          625    .data               i2cslave.o
+    0x2000000f   0x000041ab   0x00000001   PAD
+    0x20000010   0x000041ac   0x00000002   Data   RW          675    .data               l76k.o
+    0x20000012   0x000041ae   0x00000001   Data   RW          787    .data               sd3031.o
+    0x20000013   0x000041af   0x00000001   PAD
+    0x20000014   0x000041b0   0x00000006   Data   RW          912    .data               uart.o
+    0x2000001a   0x000041b6   0x00000002   PAD
+    0x2000001c   0x000041b8   0x00000009   Data   RW         1045    .data               cs32l010_hal.o
+    0x20000025   0x000041c1   0x00000003   PAD
+    0x20000028   0x000041c4   0x00000004   Data   RW         4083    .data               system_cs32l010.o
+    0x2000002c   0x000041c8   0x00000004   Data   RW         4425    .data               mc_p.l(stdout.o)
+    0x20000030   0x000041cc   0x00000004   Data   RW         4435    .data               mc_p.l(errno.o)
     0x20000034        -       0x0000002c   Zero   RW          549    .bss                timer.o
     0x20000060        -       0x00000024   Zero   RW          624    .bss                i2cslave.o
-    0x20000084   0x000041d4   0x00000004   PAD
+    0x20000084   0x000041d0   0x00000004   PAD
     0x20000088        -       0x00000398   Zero   RW          674    .bss                l76k.o
     0x20000420        -       0x000000b0   Zero   RW          741    .bss                reg.o
     0x200004d0        -       0x00000648   Zero   RW          911    .bss                uart.o
@@ -2452,7 +2452,7 @@ Image component sizes
       1884        108          0          0          0       5132   cs32l010_hal_rcc.o
       1406         22        256          0          0       8495   cs32l010_hal_uart.o
        124         24          0          0          0      12812   cs32l010_it.o
-      1014         78          0          1          0       9453   dfrobot_softeriic.o
+      1010         78          0          1          0       9449   dfrobot_softeriic.o
        544         62          0          7         36       2710   i2cslave.o
       2558        158          0          2        920       7413   l76k.o
         36          4          0          0          0        944   log.o
@@ -2465,7 +2465,7 @@ Image component sizes
        848        130          0          6       1608       5027   uart.o
 
     ----------------------------------------------------------------------
-     11922        924        492         44       3300     237162   Object Totals
+     11918        924        492         44       3300     237158   Object Totals
          0          0         32          0          0          0   (incl. Generated)
         24          0          0          8          4          0   (incl. Padding)
 
@@ -2540,15 +2540,15 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-     16172       1082        628         52       3300     233626   Grand Totals
-     16172       1082        628         52       3300     233626   ELF Image Totals
-     16172       1082        628         52          0          0   ROM Totals
+     16168       1082        628         52       3300     233622   Grand Totals
+     16168       1082        628         52       3300     233622   ELF Image Totals
+     16168       1082        628         52          0          0   ROM Totals
 
 ==============================================================================
 
-    Total RO  Size (Code + RO Data)                16800 (  16.41kB)
+    Total RO  Size (Code + RO Data)                16796 (  16.40kB)
     Total RW  Size (RW Data + ZI Data)              3352 (   3.27kB)
-    Total ROM Size (Code + RO Data + RW Data)      16852 (  16.46kB)
+    Total ROM Size (Code + RO Data + RW Data)      16848 (  16.45kB)
 
 ==============================================================================
 
