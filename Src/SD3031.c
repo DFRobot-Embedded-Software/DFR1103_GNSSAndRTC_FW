@@ -43,17 +43,6 @@ uint8_t SD3031readReg(uint8_t reg, void* pBuf, size_t size)
     }
     uint8_t* _pBuf = (uint8_t*)pBuf;
     readReg(reg, _pBuf, size);
-    // _pWire->beginTransmission(_deviceAddr);
-    // _pWire->write(&reg, 1);
-
-    // if (_pWire->endTransmission(false) != 0) {
-    //     return 0;
-    // }
-    // HAL_Delay(10);
-    // _pWire->requestFrom(_deviceAddr, (uint8_t)size);
-    // for (uint16_t i = 0; i < size; i++) {
-    //     _pBuf[i] = _pWire->read();
-    // }
     return size;
 }
 
@@ -122,32 +111,6 @@ sTimeData_t getRTCTime(void)
     sTime.month = bcd2bin(buffer[5]);
     sTime.day = bcd2bin(buffer[4]);
     sTime.week = bcd2bin(buffer[3]);
-    // data = bcd2bin(buffer[3]);
-    // switch (data) {
-    // case 0:
-    //     sTime.week = "Sunday";
-    //     break;
-    // case 1:
-    //     sTime.week = "Monday";
-    //     break;
-    // case 2:
-    //     sTime.week = "Tuesday";
-    //     break;
-    // case 3:
-    //     sTime.week = "Wednesday";
-    //     break;
-    // case 4:
-    //     sTime.week = "Thursday";
-    //     break;
-    // case 5:
-    //     sTime.week = "Friday";
-    //     break;
-    // case 6:
-    //     sTime.week = "Saturday";
-    //     break;
-    // default:
-    //     break;
-    // }
     data = buffer[2];
     if (_mode == e24hours) {
         sTime.hour = bcd2bin(data & 0x7f);
@@ -257,20 +220,6 @@ uint8_t bin2bcd(uint8_t val)
 {
     return val + 6 * (val / 10);
 }
-
-// String getAMorPM(){
-//   uint8_t buffer[7];
-//   uint8_t data;
-//   String ret;
-//   readReg(SD3031_REG_SEC, buffer, 7);
-//   data = buffer[2];
-//   if(data&0x20){
-//     ret = "PM";
-//   }else{
-//     ret = "AM";
-//   }
-//   return ret;
-// }
 
 void enable32k()
 {

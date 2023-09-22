@@ -2,18 +2,16 @@
   ******************************************************************************
   * @file    log.h
   * @author  Application Team
-	* @Version V1.0.0
+  * @Version V1.0.0
   * @Date    1-April-2019
   * @brief   Header file of log module.
   ******************************************************************************
   */
 
-
-
 #ifndef __CS32L010_LOG_H
 #define __CS32L010_LOG_H
 
-/* Includes ------------------------------------------------------------------*/
+  /* Includes ------------------------------------------------------------------*/
 #include "cs32l010_hal.h"
 #include "stdbool.h"
 
@@ -22,14 +20,14 @@
 //#define	LOG_METHOD_RAM
 
 #ifdef LOG_METHOD_SERIAL
-	/* Serial port baud rate */
-	#define LOG_SERIAL_BPS 115200
+  /* Serial port baud rate */
+#define LOG_SERIAL_BPS 115200
 #endif
 
 #ifdef LOG_METHOD_RAM
-	/* Choose a valid address without any confliction */
-	#define	LOG_RAM_ADDRESS		0x20001000
-	#define LOG_RAM_CHAR		((volatile char *)(LOG_RAM_ADDRESS))
+  /* Choose a valid address without any confliction */
+#define LOG_RAM_ADDRESS 0x20001000
+#define LOG_RAM_CHAR    ((volatile char *)(LOG_RAM_ADDRESS))
 #endif
 
 

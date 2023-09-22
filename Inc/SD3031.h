@@ -44,10 +44,10 @@ extern "C" {
 #define SD3031_REG_IIC_CON        0x17  ///< I2C Control
 #define SD3031_REG_BAT_VAL        0x1A  ///< Battery Level
 
-/**
- * @struct sTimeData_t
- * @brief Structure for storing time data
- */
+    /**
+     * @struct sTimeData_t
+     * @brief Structure for storing time data
+     */
     typedef struct {
         uint16_t year;
         uint8_t  month;
@@ -175,13 +175,13 @@ extern "C" {
      * @brief 输出上午或下午的时间
      * @return 上午或下午的时间，24小时模式返回空字符串
      */
-    // String getAMorPM();
+     // String getAMorPM();
 
-    /**
-     * @fn enable32k
-     * @brief 开启32k频率输出
-     * @return 无
-     */
+     /**
+      * @fn enable32k
+      * @brief 开启32k频率输出
+      * @return 无
+      */
     void enable32k(void);
 
     /**

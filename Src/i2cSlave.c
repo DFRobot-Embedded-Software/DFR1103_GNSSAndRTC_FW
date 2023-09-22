@@ -49,16 +49,6 @@ void HAL_I2C_SlaveCallback(I2C_HandleTypeDef* hi2c)
     }
     break;
   case I2C_FLAG_SLAVE_TX_SLAW_ACK: // A8H 主机已发送 SLA+W（从机地址加写位）并收到主机 ACK 的标志位。
-    // if ((registerOffset == I2C_ALL_DATA) && (gps_offset < UART1_MAX_LEN)) {
-    //   i2c1WrData = l76kUart1Buffer[gps_offset++]
-    // } else if (registerOffset < DATA_LEN_MAX) {
-    //   i2c1WrData = regBuf[registerOffset];
-    //   registerOffset++;
-    // } else {
-    //   i2c1WrData = 0xFF;
-    // }
-    // HAL_I2C_Send_Byte(hi2c, i2c1WrData);
-    // break;
   case I2C_FLAG_SLAVE_TX_DATA_ACK: // B8H 数据传输期间主机 ACK 从机数据的标志位。
     if ((registerOffset == REG_ALL_DATA) && (gps_offset < UART1_MAX_LEN)) {
       i2c1WrData = l76kUart1Buffer[gps_offset++];
@@ -106,7 +96,6 @@ void I2C_Init(void)
 void HAL_I2C_MspInit(I2C_HandleTypeDef* hi2c)
 {
   __HAL_RCC_I2C_CLK_ENABLE();
-  // __HAL_RCC_GPIOD_CLK_ENABLE();
 
   /** I2C GPIO Configuration
     PD5 ------> I2C_SCL

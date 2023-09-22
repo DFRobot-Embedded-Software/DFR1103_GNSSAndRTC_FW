@@ -18,11 +18,6 @@ void enable_gnss_power(void)
     HAL_GPIO_WritePin(GPIOB, GPIO_PIN_5, GPIO_PIN_SET);     // 拉高RESET
     HAL_GPIO_WritePin(GPIOB, GPIO_PIN_4, GPIO_PIN_SET);     // 拉高wake up
     // HAL_GPIO_WritePin(GPIOC, GPIO_PIN_5, GPIO_PIN_RESET);   // 悬空：BeiDou + GPS；低电平：GPS + GLONASS。
-//   initUart1ForL76K(9600);   // 因为gps传感器默认是9600的波特率
-//   HAL_Delay(1000);
-//   set_uart_baud("5");   // 这里更改gps传感器的通信波特率 为115200，为了更快的获取数据
-//   HAL_Delay(100);
-//   initUart1ForL76K(115200);
 }
 
 // extern UART_HandleTypeDef huart1;
@@ -32,10 +27,6 @@ void disable_gnss_power(void)
     HAL_GPIO_WritePin(GPIOB, GPIO_PIN_5, GPIO_PIN_RESET);   // 拉低RESET
     HAL_GPIO_WritePin(GPIOB, GPIO_PIN_4, GPIO_PIN_RESET);   // 拉低wake up
     // HAL_GPIO_WritePin(GPIOC, GPIO_PIN_5, GPIO_PIN_RESET);   // 悬空：BeiDou + GPS；低电平：GPS + GLONASS。
-//   if (HAL_UART_DeInit(&huart1) != HAL_OK) {
-//     Error_Handler();
-//   }
-//   HAL_NVIC_EnableIRQ(UART1_IRQn);   // 中断使能
 }
 
 /**
@@ -45,9 +36,6 @@ void disable_gnss_power(void)
  */
 void init_l76k_gpio(void)
 {
-    // __HAL_RCC_GPIOA_CLK_ENABLE();
-    // __HAL_RCC_GPIOB_CLK_ENABLE();
-    // __HAL_RCC_GPIOC_CLK_ENABLE();
     GPIO_InitTypeDef GPIO_InitStruct = { 0 };
 
     GPIO_InitStruct.Pin = GPIO_PIN_3;
@@ -281,7 +269,6 @@ void anaysis_gps_data(uint8_t* data, uint16_t datalen)
     p_data[0] = data;
     for (uint16_t i = 0; i < datalen - 1; i++) {
         if (data[i] == 0x0D && data[i + 1] == 0x0A) {
-            //data[i] = '\0';
             data[i + 1] = '\0';        // 为了分包,  主机读到'\0' 转成 '\n' 不改变原始数据
             list_num++;
             if ((i + 2) < datalen) {  // 防止越界
@@ -291,14 +278,11 @@ void anaysis_gps_data(uint8_t* data, uint16_t datalen)
     }
 
     uint8_t list_count = 0;
-    //printf("list_num = %d\n",list_num);
     for (uint8_t list_number = 0; list_number < list_num; list_number++) {
         uint8_t list_len = strlen((const char*)(p_data[list_number]));       // 每条命令的长度
         uint8_t douhao_temp = 0;
-        //printf("[%d] len = [%d]-- %s\n",list_number,list_len,p_data[list_number]);
         // 解析ZDA数据
         if (strncmp((const char*)(&p_data[list_number][3]), ZDA, 4) == 0) {
-            //printf("[%d] len = [%d]-- %s\n",list_number,list_len,p_data[list_number]);
             list_count = 0;
             memset(ss_data, 0, sizeof(ss_data));
             for (uint8_t i = 0; i < list_len; i++) {
@@ -306,7 +290,6 @@ void anaysis_gps_data(uint8_t* data, uint16_t datalen)
                     ss_data_len[list_count] = i - douhao_temp;
                     memcpy(&ss_data[list_count++][0], &p_data[list_number][douhao_temp], i - douhao_temp);
                     douhao_temp = i + 1;
-                    //printf("[%d] %s \n",list_count-1,ss_data[list_count-1]);
                 }
             }
             memset((void*)&gnzda_data, 0, sizeof(gnzda_data));
@@ -330,11 +313,6 @@ void anaysis_gps_data(uint8_t* data, uint16_t datalen)
             my_gps_data.minute = atoi((const char*)my_utc_data.minute);
             my_gps_data.second = atoi((const char*)my_utc_data.second);
 
-            // if (eUnderCalib == regBuf[REG_CALIB_STATUS_REG]) {
-            //     setTime(my_gps_data.year, my_gps_data.month, my_gps_data.date, \
-            //         my_gps_data.hour, my_gps_data.minute, my_gps_data.second);
-            //     regBuf[REG_CALIB_STATUS_REG] = eCalibComplete;
-            // }
             regBuf[REG_YEAR_H] = my_gps_data.year >> 8;
             regBuf[REG_YEAR_L] = my_gps_data.year;
             regBuf[REG_MONTH] = my_gps_data.month;
@@ -353,7 +331,6 @@ void anaysis_gps_data(uint8_t* data, uint16_t datalen)
                     ss_data_len[list_count] = i - douhao_temp;
                     memcpy(&ss_data[list_count++][0], &p_data[list_number][douhao_temp], i - douhao_temp);
                     douhao_temp = i + 1;
-                    //printf("[%d] %s \n",list_count-1,ss_data[list_count-1]);
                 }
             }
             memset((void*)&gngga_data, 0, sizeof(gngga_data));
@@ -377,11 +354,6 @@ void anaysis_gps_data(uint8_t* data, uint16_t datalen)
 
             regBuf[REG_USE_STAR] = my_gps_data.numSatUsed;
 
-            // if (my_gps_data.lat > -0.00001 && my_gps_data.lat < 0.00001) {
-            //     rgb_on(RED);
-            // } else {
-            //     rgb_on(GREEN);
-            // }
             if (my_gps_data.lat < -0.00001 && my_gps_data.lat > 0.00001) {   // 当获取卫星定位信息不为零时才会校准
                 if (eUnderCalib == regBuf[REG_CALIB_STATUS_REG]) {
                     setTime(my_gps_data.year, my_gps_data.month, my_gps_data.date, \
@@ -414,13 +386,11 @@ void anaysis_gps_data(uint8_t* data, uint16_t datalen)
         if (strncmp((const char*)(&p_data[list_number][3]), VTG, 4) == 0) {
             list_count = 0;
             memset(ss_data, 0, sizeof(ss_data));
-            //printf("[%d] len = [%d]-- %s\n",list_number,list_len,p_data[list_number]);
             for (uint8_t i = 0; i < list_len; i++) {
                 if (p_data[list_number][i] == ',') {
                     ss_data_len[list_count] = i - douhao_temp;
                     memcpy(&ss_data[list_count++][0], &p_data[list_number][douhao_temp], i - douhao_temp);
                     douhao_temp = i + 1;
-                    //printf("[%d] len = %d  %s \n",list_count-1,ss_data_len[list_count-1],ss_data[list_count-1]);
                 }
             }
             memset((void*)&gnvtg_data, 0, sizeof(gnvtg_data));
@@ -440,12 +410,7 @@ void anaysis_gps_data(uint8_t* data, uint16_t datalen)
             regBuf[REG_COG_H] = (uint16_t)my_gps_data.cog >> 8;
             regBuf[REG_COG_L] = (uint16_t)my_gps_data.cog;
             regBuf[REG_COG_X] = ((double)my_gps_data.cog - (uint16_t)my_gps_data.cog) * 100;
-
-            // printf("sog = %.2f N\n",my_gps_data.cog);
-            // printf("sog = %.2f j\n",my_gps_data.sog);
         }
-
-        //printf("[%d] len = [%d]-- %s\n",list_number,list_len,p_data[list_number]);
 
         if (list_number < list_num - 1) {
             // 这里不计算最后一个gps数据包 这里的最后一个包的前缀和gps的前缀gp冲突

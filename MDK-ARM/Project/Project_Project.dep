@@ -1,1470 +1,0 @@
-Dependencies for Project 'Project', Target 'Project': (DO NOT MODIFY !)
-CompilerVersion: 5050106::V5.05 update 1 (build 106)::ARMCC
-F (..\Src\main.c)(0x64F54D32)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../../../../Drivers/CMSIS/Include -I ..\Common -I ../../../../Drivers/CS32L010_HAL_Driver/Inc -I ../../../../Drivers/CMSIS/Device/CHIPSEA/CS32L010/Include-I.\RTE\_Project-ID:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER-o .\project\main.o --omf_browse .\project\main.crf --depend .\project\main.d)
-I (../Inc/main.h)(0x64EEEAD8)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal.h)(0x61132E5A)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_conf.h)(0x60386F40)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_syscon.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_def.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\system_cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rcc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_gpio.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_cortex.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_adc.h)(0x61132F00)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_crc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_flash.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_i2c.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_iwdg.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pwr.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rtc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_spi.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_tim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_basetim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lptim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_uart.h)(0x61132DCC)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lpuart.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_wwdg.h)(0x61133366)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_beep.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_awk.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lvd.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_vc.h)(0x611469E2)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_clktrim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pca.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_owire.h)(0x60386F12)
-I (..\Common\log.h)(0x64E5D450)
-I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
-I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
-I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
-I (../Inc/uart.h)(0x64F18A8A)
-I (../Inc/i2cSlave.h)(0x64EEEAD8)
-I (../Inc/DFRobot_SofterIIC.h)(0x64E70F18)
-I (../Inc/reg.h)(0x64EEEB45)
-I (../Inc/flash.h)(0x64E328E8)
-I (../Inc/timer.h)(0x64F0214D)
-I (../Inc/SD3031.h)(0x64E8430C)
-I (../Inc/L76K.h)(0x64E85046)
-F (..\Src\cs32l010_hal_msp.c)(0x643E440E)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../../../../Drivers/CMSIS/Include -I ..\Common -I ../../../../Drivers/CS32L010_HAL_Driver/Inc -I ../../../../Drivers/CMSIS/Device/CHIPSEA/CS32L010/Include-I.\RTE\_Project-ID:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER-o .\project\cs32l010_hal_msp.o --omf_browse .\project\cs32l010_hal_msp.crf --depend .\project\cs32l010_hal_msp.d)
-I (../Inc/main.h)(0x64EEEAD8)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal.h)(0x61132E5A)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_conf.h)(0x60386F40)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_syscon.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_def.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\system_cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rcc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_gpio.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_cortex.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_adc.h)(0x61132F00)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_crc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_flash.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_i2c.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_iwdg.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pwr.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rtc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_spi.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_tim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_basetim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lptim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_uart.h)(0x61132DCC)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lpuart.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_wwdg.h)(0x61133366)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_beep.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_awk.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lvd.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_vc.h)(0x611469E2)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_clktrim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pca.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_owire.h)(0x60386F12)
-I (..\Common\log.h)(0x64E5D450)
-I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
-I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
-I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
-F (..\Src\cs32l010_it.c)(0x64F18104)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../../../../Drivers/CMSIS/Include -I ..\Common -I ../../../../Drivers/CS32L010_HAL_Driver/Inc -I ../../../../Drivers/CMSIS/Device/CHIPSEA/CS32L010/Include-I.\RTE\_Project-ID:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER-o .\project\cs32l010_it.o --omf_browse .\project\cs32l010_it.crf --depend .\project\cs32l010_it.d)
-I (../Inc/cs32l010_it.h)(0x64E32CBF)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal.h)(0x61132E5A)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_conf.h)(0x60386F40)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_syscon.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_def.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\system_cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rcc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_gpio.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_cortex.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_adc.h)(0x61132F00)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_crc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_flash.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_i2c.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_iwdg.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pwr.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rtc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_spi.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_tim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_basetim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lptim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_uart.h)(0x61132DCC)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lpuart.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_wwdg.h)(0x61133366)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_beep.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_awk.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lvd.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_vc.h)(0x611469E2)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_clktrim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pca.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_owire.h)(0x60386F12)
-F (..\Src\DFRobot_SofterIIC.c)(0x64F54D32)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../../../../Drivers/CMSIS/Include -I ..\Common -I ../../../../Drivers/CS32L010_HAL_Driver/Inc -I ../../../../Drivers/CMSIS/Device/CHIPSEA/CS32L010/Include-I.\RTE\_Project-ID:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER-o .\project\dfrobot_softeriic.o --omf_browse .\project\dfrobot_softeriic.crf --depend .\project\dfrobot_softeriic.d)
-I (../Inc/DFRobot_SofterIIC.h)(0x64E70F18)
-I (../Inc/main.h)(0x64EEEAD8)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal.h)(0x61132E5A)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_conf.h)(0x60386F40)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_syscon.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_def.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\system_cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rcc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_gpio.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_cortex.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_adc.h)(0x61132F00)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_crc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_flash.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_i2c.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_iwdg.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pwr.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rtc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_spi.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_tim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_basetim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lptim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_uart.h)(0x61132DCC)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lpuart.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_wwdg.h)(0x61133366)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_beep.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_awk.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lvd.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_vc.h)(0x611469E2)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_clktrim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pca.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_owire.h)(0x60386F12)
-I (..\Common\log.h)(0x64E5D450)
-I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
-I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
-I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
-F (..\Src\timer.c)(0x64E85C8F)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../../../../Drivers/CMSIS/Include -I ..\Common -I ../../../../Drivers/CS32L010_HAL_Driver/Inc -I ../../../../Drivers/CMSIS/Device/CHIPSEA/CS32L010/Include-I.\RTE\_Project-ID:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER-o .\project\timer.o --omf_browse .\project\timer.crf --depend .\project\timer.d)
-I (../Inc/timer.h)(0x64F0214D)
-I (../Inc/main.h)(0x64EEEAD8)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal.h)(0x61132E5A)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_conf.h)(0x60386F40)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_syscon.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_def.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\system_cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rcc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_gpio.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_cortex.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_adc.h)(0x61132F00)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_crc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_flash.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_i2c.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_iwdg.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pwr.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rtc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_spi.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_tim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_basetim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lptim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_uart.h)(0x61132DCC)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lpuart.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_wwdg.h)(0x61133366)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_beep.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_awk.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lvd.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_vc.h)(0x611469E2)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_clktrim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pca.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_owire.h)(0x60386F12)
-I (..\Common\log.h)(0x64E5D450)
-I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
-I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
-I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
-F (..\Src\flash.c)(0x643E440E)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../../../../Drivers/CMSIS/Include -I ..\Common -I ../../../../Drivers/CS32L010_HAL_Driver/Inc -I ../../../../Drivers/CMSIS/Device/CHIPSEA/CS32L010/Include-I.\RTE\_Project-ID:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER-o .\project\flash.o --omf_browse .\project\flash.crf --depend .\project\flash.d)
-I (../Inc/flash.h)(0x64E328E8)
-I (../Inc/main.h)(0x64EEEAD8)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal.h)(0x61132E5A)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_conf.h)(0x60386F40)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_syscon.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_def.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\system_cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rcc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_gpio.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_cortex.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_adc.h)(0x61132F00)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_crc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_flash.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_i2c.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_iwdg.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pwr.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rtc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_spi.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_tim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_basetim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lptim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_uart.h)(0x61132DCC)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lpuart.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_wwdg.h)(0x61133366)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_beep.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_awk.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lvd.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_vc.h)(0x611469E2)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_clktrim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pca.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_owire.h)(0x60386F12)
-I (..\Common\log.h)(0x64E5D450)
-I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
-I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
-I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
-F (..\Src\i2cSlave.c)(0x64E87CBC)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../../../../Drivers/CMSIS/Include -I ..\Common -I ../../../../Drivers/CS32L010_HAL_Driver/Inc -I ../../../../Drivers/CMSIS/Device/CHIPSEA/CS32L010/Include-I.\RTE\_Project-ID:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER-o .\project\i2cslave.o --omf_browse .\project\i2cslave.crf --depend .\project\i2cslave.d)
-I (../Inc/i2cSlave.h)(0x64EEEAD8)
-I (../Inc/main.h)(0x64EEEAD8)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal.h)(0x61132E5A)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_conf.h)(0x60386F40)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_syscon.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_def.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\system_cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rcc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_gpio.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_cortex.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_adc.h)(0x61132F00)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_crc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_flash.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_i2c.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_iwdg.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pwr.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rtc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_spi.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_tim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_basetim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lptim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_uart.h)(0x61132DCC)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lpuart.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_wwdg.h)(0x61133366)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_beep.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_awk.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lvd.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_vc.h)(0x611469E2)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_clktrim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pca.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_owire.h)(0x60386F12)
-I (..\Common\log.h)(0x64E5D450)
-I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
-I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
-I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
-I (../Inc/L76K.h)(0x64E85046)
-I (../Inc/SD3031.h)(0x64E8430C)
-I (../Inc/reg.h)(0x64EEEB45)
-I (../Inc/uart.h)(0x64F18A8A)
-F (..\Src\L76K.c)(0x64FAE712)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../../../../Drivers/CMSIS/Include -I ..\Common -I ../../../../Drivers/CS32L010_HAL_Driver/Inc -I ../../../../Drivers/CMSIS/Device/CHIPSEA/CS32L010/Include-I.\RTE\_Project-ID:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER-o .\project\l76k.o --omf_browse .\project\l76k.crf --depend .\project\l76k.d)
-I (../Inc/L76K.h)(0x64E85046)
-I (../Inc/main.h)(0x64EEEAD8)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal.h)(0x61132E5A)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_conf.h)(0x60386F40)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_syscon.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_def.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\system_cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rcc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_gpio.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_cortex.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_adc.h)(0x61132F00)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_crc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_flash.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_i2c.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_iwdg.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pwr.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rtc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_spi.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_tim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_basetim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lptim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_uart.h)(0x61132DCC)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lpuart.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_wwdg.h)(0x61133366)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_beep.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_awk.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lvd.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_vc.h)(0x611469E2)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_clktrim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pca.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_owire.h)(0x60386F12)
-I (..\Common\log.h)(0x64E5D450)
-I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
-I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
-I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
-I (../Inc/reg.h)(0x64EEEB45)
-I (../Inc/uart.h)(0x64F18A8A)
-I (../Inc/SD3031.h)(0x64E8430C)
-F (..\Src\reg.c)(0x64EEE7FA)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../../../../Drivers/CMSIS/Include -I ..\Common -I ../../../../Drivers/CS32L010_HAL_Driver/Inc -I ../../../../Drivers/CMSIS/Device/CHIPSEA/CS32L010/Include-I.\RTE\_Project-ID:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER-o .\project\reg.o --omf_browse .\project\reg.crf --depend .\project\reg.d)
-I (../Inc/reg.h)(0x64EEEB45)
-I (../Inc/main.h)(0x64EEEAD8)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal.h)(0x61132E5A)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_conf.h)(0x60386F40)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_syscon.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_def.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\system_cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rcc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_gpio.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_cortex.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_adc.h)(0x61132F00)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_crc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_flash.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_i2c.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_iwdg.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pwr.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rtc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_spi.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_tim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_basetim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lptim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_uart.h)(0x61132DCC)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lpuart.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_wwdg.h)(0x61133366)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_beep.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_awk.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lvd.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_vc.h)(0x611469E2)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_clktrim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pca.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_owire.h)(0x60386F12)
-I (..\Common\log.h)(0x64E5D450)
-I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
-I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
-I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
-I (../Inc/i2cSlave.h)(0x64EEEAD8)
-F (..\Src\SD3031.c)(0x64F54B60)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../../../../Drivers/CMSIS/Include -I ..\Common -I ../../../../Drivers/CS32L010_HAL_Driver/Inc -I ../../../../Drivers/CMSIS/Device/CHIPSEA/CS32L010/Include-I.\RTE\_Project-ID:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER-o .\project\sd3031.o --omf_browse .\project\sd3031.crf --depend .\project\sd3031.d)
-I (../Inc/SD3031.h)(0x64E8430C)
-I (../Inc/main.h)(0x64EEEAD8)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal.h)(0x61132E5A)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_conf.h)(0x60386F40)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_syscon.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_def.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\system_cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rcc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_gpio.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_cortex.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_adc.h)(0x61132F00)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_crc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_flash.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_i2c.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_iwdg.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pwr.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rtc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_spi.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_tim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_basetim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lptim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_uart.h)(0x61132DCC)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lpuart.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_wwdg.h)(0x61133366)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_beep.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_awk.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lvd.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_vc.h)(0x611469E2)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_clktrim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pca.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_owire.h)(0x60386F12)
-I (..\Common\log.h)(0x64E5D450)
-I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
-I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
-I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
-I (../Inc/DFRobot_SofterIIC.h)(0x64E70F18)
-I (../Inc/i2cSlave.h)(0x64EEEAD8)
-F (..\Src\uart.c)(0x64F1A58B)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../../../../Drivers/CMSIS/Include -I ..\Common -I ../../../../Drivers/CS32L010_HAL_Driver/Inc -I ../../../../Drivers/CMSIS/Device/CHIPSEA/CS32L010/Include-I.\RTE\_Project-ID:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER-o .\project\uart.o --omf_browse .\project\uart.crf --depend .\project\uart.d)
-I (../Inc/uart.h)(0x64F18A8A)
-I (../Inc/main.h)(0x64EEEAD8)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal.h)(0x61132E5A)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_conf.h)(0x60386F40)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_syscon.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_def.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\system_cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rcc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_gpio.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_cortex.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_adc.h)(0x61132F00)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_crc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_flash.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_i2c.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_iwdg.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pwr.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rtc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_spi.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_tim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_basetim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lptim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_uart.h)(0x61132DCC)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lpuart.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_wwdg.h)(0x61133366)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_beep.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_awk.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lvd.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_vc.h)(0x611469E2)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_clktrim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pca.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_owire.h)(0x60386F12)
-I (..\Common\log.h)(0x64E5D450)
-I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
-I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
-I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
-I (../Inc/timer.h)(0x64F0214D)
-I (../Inc/reg.h)(0x64EEEB45)
-I (../Inc/L76K.h)(0x64E85046)
-F (..\Common\log.c)(0x64F18B89)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../../../../Drivers/CMSIS/Include -I ..\Common -I ../../../../Drivers/CS32L010_HAL_Driver/Inc -I ../../../../Drivers/CMSIS/Device/CHIPSEA/CS32L010/Include-I.\RTE\_Project-ID:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER-o .\project\log.o --omf_browse .\project\log.crf --depend .\project\log.d)
-I (..\Common\log.h)(0x64E5D450)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal.h)(0x61132E5A)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_conf.h)(0x60386F40)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_syscon.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_def.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\system_cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rcc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_gpio.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_cortex.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_adc.h)(0x61132F00)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_crc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_flash.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_i2c.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_iwdg.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pwr.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rtc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_spi.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_tim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_basetim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lptim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_uart.h)(0x61132DCC)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lpuart.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_wwdg.h)(0x61133366)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_beep.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_awk.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lvd.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_vc.h)(0x611469E2)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_clktrim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pca.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_owire.h)(0x60386F12)
-I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
-I (../Inc/uart.h)(0x64F18A8A)
-I (../Inc/main.h)(0x64EEEAD8)
-I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
-I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
-F (..\readme.txt)(0x00000000)()
-F (D:/Keil_v5/ARM/Pack/Chipsea/CS32L010_DFP/1.0.4/Device/HAL_Driver/src/cs32l010_hal.c)(0x60386F14)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../../../../Drivers/CMSIS/Include -I ..\Common -I ../../../../Drivers/CS32L010_HAL_Driver/Inc -I ../../../../Drivers/CMSIS/Device/CHIPSEA/CS32L010/Include-I.\RTE\_Project-ID:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER-o .\project\cs32l010_hal.o --omf_browse .\project\cs32l010_hal.crf --depend .\project\cs32l010_hal.d)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal.h)(0x61132E5A)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_conf.h)(0x60386F40)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_syscon.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_def.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\system_cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rcc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_gpio.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_cortex.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_adc.h)(0x61132F00)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_crc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_flash.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_i2c.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_iwdg.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pwr.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rtc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_spi.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_tim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_basetim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lptim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_uart.h)(0x61132DCC)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lpuart.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_wwdg.h)(0x61133366)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_beep.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_awk.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lvd.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_vc.h)(0x611469E2)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_clktrim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pca.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_owire.h)(0x60386F12)
-F (D:/Keil_v5/ARM/Pack/Chipsea/CS32L010_DFP/1.0.4/Device/HAL_Driver/src/cs32l010_hal_adc.c)(0x60386F14)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../../../../Drivers/CMSIS/Include -I ..\Common -I ../../../../Drivers/CS32L010_HAL_Driver/Inc -I ../../../../Drivers/CMSIS/Device/CHIPSEA/CS32L010/Include-I.\RTE\_Project-ID:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER-o .\project\cs32l010_hal_adc.o --omf_browse .\project\cs32l010_hal_adc.crf --depend .\project\cs32l010_hal_adc.d)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal.h)(0x61132E5A)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_conf.h)(0x60386F40)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_syscon.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_def.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\system_cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rcc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_gpio.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_cortex.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_adc.h)(0x61132F00)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_crc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_flash.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_i2c.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_iwdg.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pwr.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rtc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_spi.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_tim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_basetim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lptim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_uart.h)(0x61132DCC)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lpuart.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_wwdg.h)(0x61133366)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_beep.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_awk.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lvd.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_vc.h)(0x611469E2)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_clktrim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pca.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_owire.h)(0x60386F12)
-F (D:/Keil_v5/ARM/Pack/Chipsea/CS32L010_DFP/1.0.4/Device/HAL_Driver/src/cs32l010_hal_awk.c)(0x60386F3E)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../../../../Drivers/CMSIS/Include -I ..\Common -I ../../../../Drivers/CS32L010_HAL_Driver/Inc -I ../../../../Drivers/CMSIS/Device/CHIPSEA/CS32L010/Include-I.\RTE\_Project-ID:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER-o .\project\cs32l010_hal_awk.o --omf_browse .\project\cs32l010_hal_awk.crf --depend .\project\cs32l010_hal_awk.d)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal.h)(0x61132E5A)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_conf.h)(0x60386F40)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_syscon.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_def.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\system_cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rcc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_gpio.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_cortex.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_adc.h)(0x61132F00)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_crc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_flash.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_i2c.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_iwdg.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pwr.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rtc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_spi.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_tim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_basetim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lptim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_uart.h)(0x61132DCC)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lpuart.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_wwdg.h)(0x61133366)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_beep.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_awk.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lvd.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_vc.h)(0x611469E2)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_clktrim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pca.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_owire.h)(0x60386F12)
-F (D:/Keil_v5/ARM/Pack/Chipsea/CS32L010_DFP/1.0.4/Device/HAL_Driver/src/cs32l010_hal_basetim.c)(0x60386F44)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../../../../Drivers/CMSIS/Include -I ..\Common -I ../../../../Drivers/CS32L010_HAL_Driver/Inc -I ../../../../Drivers/CMSIS/Device/CHIPSEA/CS32L010/Include-I.\RTE\_Project-ID:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER-o .\project\cs32l010_hal_basetim.o --omf_browse .\project\cs32l010_hal_basetim.crf --depend .\project\cs32l010_hal_basetim.d)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal.h)(0x61132E5A)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_conf.h)(0x60386F40)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_syscon.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_def.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\system_cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rcc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_gpio.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_cortex.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_adc.h)(0x61132F00)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_crc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_flash.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_i2c.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_iwdg.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pwr.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rtc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_spi.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_tim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_basetim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lptim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_uart.h)(0x61132DCC)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lpuart.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_wwdg.h)(0x61133366)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_beep.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_awk.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lvd.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_vc.h)(0x611469E2)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_clktrim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pca.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_owire.h)(0x60386F12)
-F (D:/Keil_v5/ARM/Pack/Chipsea/CS32L010_DFP/1.0.4/Device/HAL_Driver/src/cs32l010_hal_beep.c)(0x60386F14)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../../../../Drivers/CMSIS/Include -I ..\Common -I ../../../../Drivers/CS32L010_HAL_Driver/Inc -I ../../../../Drivers/CMSIS/Device/CHIPSEA/CS32L010/Include-I.\RTE\_Project-ID:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER-o .\project\cs32l010_hal_beep.o --omf_browse .\project\cs32l010_hal_beep.crf --depend .\project\cs32l010_hal_beep.d)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal.h)(0x61132E5A)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_conf.h)(0x60386F40)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_syscon.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_def.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\system_cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rcc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_gpio.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_cortex.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_adc.h)(0x61132F00)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_crc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_flash.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_i2c.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_iwdg.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pwr.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rtc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_spi.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_tim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_basetim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lptim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_uart.h)(0x61132DCC)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lpuart.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_wwdg.h)(0x61133366)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_beep.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_awk.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lvd.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_vc.h)(0x611469E2)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_clktrim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pca.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_owire.h)(0x60386F12)
-F (D:/Keil_v5/ARM/Pack/Chipsea/CS32L010_DFP/1.0.4/Device/HAL_Driver/src/cs32l010_hal_clktrim.c)(0x60386F14)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../../../../Drivers/CMSIS/Include -I ..\Common -I ../../../../Drivers/CS32L010_HAL_Driver/Inc -I ../../../../Drivers/CMSIS/Device/CHIPSEA/CS32L010/Include-I.\RTE\_Project-ID:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER-o .\project\cs32l010_hal_clktrim.o --omf_browse .\project\cs32l010_hal_clktrim.crf --depend .\project\cs32l010_hal_clktrim.d)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal.h)(0x61132E5A)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_conf.h)(0x60386F40)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_syscon.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_def.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\system_cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rcc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_gpio.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_cortex.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_adc.h)(0x61132F00)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_crc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_flash.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_i2c.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_iwdg.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pwr.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rtc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_spi.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_tim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_basetim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lptim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_uart.h)(0x61132DCC)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lpuart.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_wwdg.h)(0x61133366)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_beep.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_awk.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lvd.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_vc.h)(0x611469E2)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_clktrim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pca.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_owire.h)(0x60386F12)
-F (D:/Keil_v5/ARM/Pack/Chipsea/CS32L010_DFP/1.0.4/Device/HAL_Driver/src/cs32l010_hal_cortex.c)(0x60386F3E)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../../../../Drivers/CMSIS/Include -I ..\Common -I ../../../../Drivers/CS32L010_HAL_Driver/Inc -I ../../../../Drivers/CMSIS/Device/CHIPSEA/CS32L010/Include-I.\RTE\_Project-ID:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER-o .\project\cs32l010_hal_cortex.o --omf_browse .\project\cs32l010_hal_cortex.crf --depend .\project\cs32l010_hal_cortex.d)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal.h)(0x61132E5A)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_conf.h)(0x60386F40)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_syscon.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_def.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\system_cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rcc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_gpio.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_cortex.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_adc.h)(0x61132F00)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_crc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_flash.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_i2c.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_iwdg.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pwr.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rtc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_spi.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_tim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_basetim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lptim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_uart.h)(0x61132DCC)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lpuart.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_wwdg.h)(0x61133366)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_beep.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_awk.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lvd.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_vc.h)(0x611469E2)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_clktrim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pca.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_owire.h)(0x60386F12)
-F (D:/Keil_v5/ARM/Pack/Chipsea/CS32L010_DFP/1.0.4/Device/HAL_Driver/src/cs32l010_hal_crc.c)(0x60386F44)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../../../../Drivers/CMSIS/Include -I ..\Common -I ../../../../Drivers/CS32L010_HAL_Driver/Inc -I ../../../../Drivers/CMSIS/Device/CHIPSEA/CS32L010/Include-I.\RTE\_Project-ID:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER-o .\project\cs32l010_hal_crc.o --omf_browse .\project\cs32l010_hal_crc.crf --depend .\project\cs32l010_hal_crc.d)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal.h)(0x61132E5A)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_conf.h)(0x60386F40)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_syscon.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_def.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\system_cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rcc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_gpio.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_cortex.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_adc.h)(0x61132F00)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_crc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_flash.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_i2c.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_iwdg.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pwr.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rtc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_spi.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_tim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_basetim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lptim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_uart.h)(0x61132DCC)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lpuart.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_wwdg.h)(0x61133366)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_beep.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_awk.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lvd.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_vc.h)(0x611469E2)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_clktrim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pca.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_owire.h)(0x60386F12)
-F (D:/Keil_v5/ARM/Pack/Chipsea/CS32L010_DFP/1.0.4/Device/HAL_Driver/src/cs32l010_hal_flash.c)(0x60386F14)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../../../../Drivers/CMSIS/Include -I ..\Common -I ../../../../Drivers/CS32L010_HAL_Driver/Inc -I ../../../../Drivers/CMSIS/Device/CHIPSEA/CS32L010/Include-I.\RTE\_Project-ID:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER-o .\project\cs32l010_hal_flash.o --omf_browse .\project\cs32l010_hal_flash.crf --depend .\project\cs32l010_hal_flash.d)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal.h)(0x61132E5A)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_conf.h)(0x60386F40)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_syscon.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_def.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\system_cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rcc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_gpio.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_cortex.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_adc.h)(0x61132F00)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_crc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_flash.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_i2c.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_iwdg.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pwr.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rtc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_spi.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_tim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_basetim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lptim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_uart.h)(0x61132DCC)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lpuart.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_wwdg.h)(0x61133366)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_beep.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_awk.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lvd.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_vc.h)(0x611469E2)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_clktrim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pca.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_owire.h)(0x60386F12)
-F (D:/Keil_v5/ARM/Pack/Chipsea/CS32L010_DFP/1.0.4/Device/HAL_Driver/src/cs32l010_hal_gpio.c)(0x60386F14)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../../../../Drivers/CMSIS/Include -I ..\Common -I ../../../../Drivers/CS32L010_HAL_Driver/Inc -I ../../../../Drivers/CMSIS/Device/CHIPSEA/CS32L010/Include-I.\RTE\_Project-ID:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER-o .\project\cs32l010_hal_gpio.o --omf_browse .\project\cs32l010_hal_gpio.crf --depend .\project\cs32l010_hal_gpio.d)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal.h)(0x61132E5A)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_conf.h)(0x60386F40)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_syscon.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_def.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\system_cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rcc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_gpio.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_cortex.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_adc.h)(0x61132F00)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_crc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_flash.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_i2c.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_iwdg.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pwr.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rtc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_spi.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_tim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_basetim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lptim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_uart.h)(0x61132DCC)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lpuart.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_wwdg.h)(0x61133366)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_beep.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_awk.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lvd.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_vc.h)(0x611469E2)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_clktrim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pca.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_owire.h)(0x60386F12)
-F (D:/Keil_v5/ARM/Pack/Chipsea/CS32L010_DFP/1.0.4/Device/HAL_Driver/src/cs32l010_hal_i2c.c)(0x60386F3E)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../../../../Drivers/CMSIS/Include -I ..\Common -I ../../../../Drivers/CS32L010_HAL_Driver/Inc -I ../../../../Drivers/CMSIS/Device/CHIPSEA/CS32L010/Include-I.\RTE\_Project-ID:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER-o .\project\cs32l010_hal_i2c.o --omf_browse .\project\cs32l010_hal_i2c.crf --depend .\project\cs32l010_hal_i2c.d)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal.h)(0x61132E5A)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_conf.h)(0x60386F40)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_syscon.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_def.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\system_cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rcc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_gpio.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_cortex.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_adc.h)(0x61132F00)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_crc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_flash.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_i2c.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_iwdg.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pwr.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rtc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_spi.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_tim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_basetim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lptim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_uart.h)(0x61132DCC)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lpuart.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_wwdg.h)(0x61133366)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_beep.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_awk.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lvd.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_vc.h)(0x611469E2)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_clktrim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pca.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_owire.h)(0x60386F12)
-F (D:/Keil_v5/ARM/Pack/Chipsea/CS32L010_DFP/1.0.4/Device/HAL_Driver/src/cs32l010_hal_iwdg.c)(0x60386F44)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../../../../Drivers/CMSIS/Include -I ..\Common -I ../../../../Drivers/CS32L010_HAL_Driver/Inc -I ../../../../Drivers/CMSIS/Device/CHIPSEA/CS32L010/Include-I.\RTE\_Project-ID:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER-o .\project\cs32l010_hal_iwdg.o --omf_browse .\project\cs32l010_hal_iwdg.crf --depend .\project\cs32l010_hal_iwdg.d)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal.h)(0x61132E5A)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_conf.h)(0x60386F40)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_syscon.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_def.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\system_cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rcc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_gpio.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_cortex.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_adc.h)(0x61132F00)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_crc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_flash.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_i2c.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_iwdg.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pwr.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rtc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_spi.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_tim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_basetim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lptim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_uart.h)(0x61132DCC)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lpuart.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_wwdg.h)(0x61133366)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_beep.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_awk.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lvd.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_vc.h)(0x611469E2)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_clktrim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pca.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_owire.h)(0x60386F12)
-F (D:/Keil_v5/ARM/Pack/Chipsea/CS32L010_DFP/1.0.4/Device/HAL_Driver/src/cs32l010_hal_lptim.c)(0x60386F14)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../../../../Drivers/CMSIS/Include -I ..\Common -I ../../../../Drivers/CS32L010_HAL_Driver/Inc -I ../../../../Drivers/CMSIS/Device/CHIPSEA/CS32L010/Include-I.\RTE\_Project-ID:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER-o .\project\cs32l010_hal_lptim.o --omf_browse .\project\cs32l010_hal_lptim.crf --depend .\project\cs32l010_hal_lptim.d)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal.h)(0x61132E5A)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_conf.h)(0x60386F40)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_syscon.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_def.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\system_cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rcc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_gpio.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_cortex.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_adc.h)(0x61132F00)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_crc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_flash.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_i2c.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_iwdg.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pwr.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rtc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_spi.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_tim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_basetim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lptim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_uart.h)(0x61132DCC)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lpuart.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_wwdg.h)(0x61133366)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_beep.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_awk.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lvd.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_vc.h)(0x611469E2)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_clktrim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pca.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_owire.h)(0x60386F12)
-F (D:/Keil_v5/ARM/Pack/Chipsea/CS32L010_DFP/1.0.4/Device/HAL_Driver/src/cs32l010_hal_lpuart.c)(0x60386F16)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../../../../Drivers/CMSIS/Include -I ..\Common -I ../../../../Drivers/CS32L010_HAL_Driver/Inc -I ../../../../Drivers/CMSIS/Device/CHIPSEA/CS32L010/Include-I.\RTE\_Project-ID:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER-o .\project\cs32l010_hal_lpuart.o --omf_browse .\project\cs32l010_hal_lpuart.crf --depend .\project\cs32l010_hal_lpuart.d)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal.h)(0x61132E5A)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_conf.h)(0x60386F40)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_syscon.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_def.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\system_cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rcc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_gpio.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_cortex.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_adc.h)(0x61132F00)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_crc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_flash.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_i2c.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_iwdg.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pwr.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rtc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_spi.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_tim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_basetim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lptim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_uart.h)(0x61132DCC)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lpuart.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_wwdg.h)(0x61133366)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_beep.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_awk.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lvd.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_vc.h)(0x611469E2)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_clktrim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pca.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_owire.h)(0x60386F12)
-F (D:/Keil_v5/ARM/Pack/Chipsea/CS32L010_DFP/1.0.4/Device/HAL_Driver/src/cs32l010_hal_lvd.c)(0x60386F3E)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../../../../Drivers/CMSIS/Include -I ..\Common -I ../../../../Drivers/CS32L010_HAL_Driver/Inc -I ../../../../Drivers/CMSIS/Device/CHIPSEA/CS32L010/Include-I.\RTE\_Project-ID:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER-o .\project\cs32l010_hal_lvd.o --omf_browse .\project\cs32l010_hal_lvd.crf --depend .\project\cs32l010_hal_lvd.d)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal.h)(0x61132E5A)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_conf.h)(0x60386F40)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_syscon.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_def.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\system_cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rcc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_gpio.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_cortex.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_adc.h)(0x61132F00)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_crc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_flash.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_i2c.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_iwdg.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pwr.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rtc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_spi.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_tim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_basetim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lptim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_uart.h)(0x61132DCC)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lpuart.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_wwdg.h)(0x61133366)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_beep.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_awk.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lvd.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_vc.h)(0x611469E2)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_clktrim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pca.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_owire.h)(0x60386F12)
-F (D:/Keil_v5/ARM/Pack/Chipsea/CS32L010_DFP/1.0.4/Device/HAL_Driver/src/cs32l010_hal_owire.c)(0x60386F44)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../../../../Drivers/CMSIS/Include -I ..\Common -I ../../../../Drivers/CS32L010_HAL_Driver/Inc -I ../../../../Drivers/CMSIS/Device/CHIPSEA/CS32L010/Include-I.\RTE\_Project-ID:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER-o .\project\cs32l010_hal_owire.o --omf_browse .\project\cs32l010_hal_owire.crf --depend .\project\cs32l010_hal_owire.d)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal.h)(0x61132E5A)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_conf.h)(0x60386F40)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_syscon.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_def.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\system_cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rcc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_gpio.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_cortex.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_adc.h)(0x61132F00)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_crc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_flash.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_i2c.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_iwdg.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pwr.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rtc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_spi.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_tim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_basetim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lptim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_uart.h)(0x61132DCC)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lpuart.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_wwdg.h)(0x61133366)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_beep.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_awk.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lvd.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_vc.h)(0x611469E2)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_clktrim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pca.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_owire.h)(0x60386F12)
-F (D:/Keil_v5/ARM/Pack/Chipsea/CS32L010_DFP/1.0.4/Device/HAL_Driver/src/cs32l010_hal_pca.c)(0x60386F16)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../../../../Drivers/CMSIS/Include -I ..\Common -I ../../../../Drivers/CS32L010_HAL_Driver/Inc -I ../../../../Drivers/CMSIS/Device/CHIPSEA/CS32L010/Include-I.\RTE\_Project-ID:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER-o .\project\cs32l010_hal_pca.o --omf_browse .\project\cs32l010_hal_pca.crf --depend .\project\cs32l010_hal_pca.d)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal.h)(0x61132E5A)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_conf.h)(0x60386F40)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_syscon.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_def.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\system_cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rcc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_gpio.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_cortex.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_adc.h)(0x61132F00)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_crc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_flash.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_i2c.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_iwdg.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pwr.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rtc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_spi.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_tim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_basetim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lptim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_uart.h)(0x61132DCC)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lpuart.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_wwdg.h)(0x61133366)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_beep.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_awk.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lvd.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_vc.h)(0x611469E2)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_clktrim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pca.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_owire.h)(0x60386F12)
-F (D:/Keil_v5/ARM/Pack/Chipsea/CS32L010_DFP/1.0.4/Device/HAL_Driver/src/cs32l010_hal_pwr.c)(0x60386F16)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../../../../Drivers/CMSIS/Include -I ..\Common -I ../../../../Drivers/CS32L010_HAL_Driver/Inc -I ../../../../Drivers/CMSIS/Device/CHIPSEA/CS32L010/Include-I.\RTE\_Project-ID:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER-o .\project\cs32l010_hal_pwr.o --omf_browse .\project\cs32l010_hal_pwr.crf --depend .\project\cs32l010_hal_pwr.d)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal.h)(0x61132E5A)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_conf.h)(0x60386F40)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_syscon.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_def.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\system_cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rcc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_gpio.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_cortex.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_adc.h)(0x61132F00)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_crc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_flash.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_i2c.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_iwdg.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pwr.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rtc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_spi.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_tim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_basetim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lptim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_uart.h)(0x61132DCC)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lpuart.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_wwdg.h)(0x61133366)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_beep.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_awk.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lvd.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_vc.h)(0x611469E2)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_clktrim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pca.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_owire.h)(0x60386F12)
-F (D:/Keil_v5/ARM/Pack/Chipsea/CS32L010_DFP/1.0.4/Device/HAL_Driver/src/cs32l010_hal_rcc.c)(0x60386F3E)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../../../../Drivers/CMSIS/Include -I ..\Common -I ../../../../Drivers/CS32L010_HAL_Driver/Inc -I ../../../../Drivers/CMSIS/Device/CHIPSEA/CS32L010/Include-I.\RTE\_Project-ID:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER-o .\project\cs32l010_hal_rcc.o --omf_browse .\project\cs32l010_hal_rcc.crf --depend .\project\cs32l010_hal_rcc.d)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal.h)(0x61132E5A)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_conf.h)(0x60386F40)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_syscon.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_def.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\system_cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rcc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_gpio.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_cortex.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_adc.h)(0x61132F00)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_crc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_flash.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_i2c.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_iwdg.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pwr.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rtc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_spi.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_tim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_basetim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lptim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_uart.h)(0x61132DCC)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lpuart.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_wwdg.h)(0x61133366)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_beep.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_awk.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lvd.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_vc.h)(0x611469E2)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_clktrim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pca.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_owire.h)(0x60386F12)
-F (D:/Keil_v5/ARM/Pack/Chipsea/CS32L010_DFP/1.0.4/Device/HAL_Driver/src/cs32l010_hal_rtc.c)(0x60386F44)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../../../../Drivers/CMSIS/Include -I ..\Common -I ../../../../Drivers/CS32L010_HAL_Driver/Inc -I ../../../../Drivers/CMSIS/Device/CHIPSEA/CS32L010/Include-I.\RTE\_Project-ID:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER-o .\project\cs32l010_hal_rtc.o --omf_browse .\project\cs32l010_hal_rtc.crf --depend .\project\cs32l010_hal_rtc.d)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal.h)(0x61132E5A)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_conf.h)(0x60386F40)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_syscon.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_def.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\system_cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rcc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_gpio.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_cortex.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_adc.h)(0x61132F00)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_crc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_flash.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_i2c.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_iwdg.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pwr.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rtc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_spi.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_tim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_basetim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lptim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_uart.h)(0x61132DCC)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lpuart.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_wwdg.h)(0x61133366)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_beep.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_awk.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lvd.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_vc.h)(0x611469E2)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_clktrim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pca.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_owire.h)(0x60386F12)
-F (D:/Keil_v5/ARM/Pack/Chipsea/CS32L010_DFP/1.0.4/Device/HAL_Driver/src/cs32l010_hal_spi.c)(0x60386F16)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../../../../Drivers/CMSIS/Include -I ..\Common -I ../../../../Drivers/CS32L010_HAL_Driver/Inc -I ../../../../Drivers/CMSIS/Device/CHIPSEA/CS32L010/Include-I.\RTE\_Project-ID:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER-o .\project\cs32l010_hal_spi.o --omf_browse .\project\cs32l010_hal_spi.crf --depend .\project\cs32l010_hal_spi.d)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal.h)(0x61132E5A)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_conf.h)(0x60386F40)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_syscon.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_def.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\system_cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rcc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_gpio.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_cortex.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_adc.h)(0x61132F00)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_crc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_flash.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_i2c.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_iwdg.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pwr.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rtc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_spi.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_tim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_basetim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lptim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_uart.h)(0x61132DCC)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lpuart.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_wwdg.h)(0x61133366)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_beep.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_awk.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lvd.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_vc.h)(0x611469E2)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_clktrim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pca.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_owire.h)(0x60386F12)
-F (D:/Keil_v5/ARM/Pack/Chipsea/CS32L010_DFP/1.0.4/Device/HAL_Driver/src/cs32l010_hal_tim.c)(0x60386F3E)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../../../../Drivers/CMSIS/Include -I ..\Common -I ../../../../Drivers/CS32L010_HAL_Driver/Inc -I ../../../../Drivers/CMSIS/Device/CHIPSEA/CS32L010/Include-I.\RTE\_Project-ID:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER-o .\project\cs32l010_hal_tim.o --omf_browse .\project\cs32l010_hal_tim.crf --depend .\project\cs32l010_hal_tim.d)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal.h)(0x61132E5A)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_conf.h)(0x60386F40)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_syscon.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_def.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\system_cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rcc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_gpio.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_cortex.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_adc.h)(0x61132F00)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_crc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_flash.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_i2c.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_iwdg.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pwr.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rtc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_spi.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_tim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_basetim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lptim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_uart.h)(0x61132DCC)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lpuart.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_wwdg.h)(0x61133366)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_beep.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_awk.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lvd.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_vc.h)(0x611469E2)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_clktrim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pca.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_owire.h)(0x60386F12)
-F (D:/Keil_v5/ARM/Pack/Chipsea/CS32L010_DFP/1.0.4/Device/HAL_Driver/src/cs32l010_hal_uart.c)(0x60386F40)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../../../../Drivers/CMSIS/Include -I ..\Common -I ../../../../Drivers/CS32L010_HAL_Driver/Inc -I ../../../../Drivers/CMSIS/Device/CHIPSEA/CS32L010/Include-I.\RTE\_Project-ID:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER-o .\project\cs32l010_hal_uart.o --omf_browse .\project\cs32l010_hal_uart.crf --depend .\project\cs32l010_hal_uart.d)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal.h)(0x61132E5A)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_conf.h)(0x60386F40)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_syscon.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_def.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\system_cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rcc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_gpio.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_cortex.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_adc.h)(0x61132F00)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_crc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_flash.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_i2c.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_iwdg.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pwr.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rtc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_spi.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_tim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_basetim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lptim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_uart.h)(0x61132DCC)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lpuart.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_wwdg.h)(0x61133366)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_beep.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_awk.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lvd.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_vc.h)(0x611469E2)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_clktrim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pca.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_owire.h)(0x60386F12)
-F (D:/Keil_v5/ARM/Pack/Chipsea/CS32L010_DFP/1.0.4/Device/HAL_Driver/src/cs32l010_hal_vc.c)(0x60386F44)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../../../../Drivers/CMSIS/Include -I ..\Common -I ../../../../Drivers/CS32L010_HAL_Driver/Inc -I ../../../../Drivers/CMSIS/Device/CHIPSEA/CS32L010/Include-I.\RTE\_Project-ID:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER-o .\project\cs32l010_hal_vc.o --omf_browse .\project\cs32l010_hal_vc.crf --depend .\project\cs32l010_hal_vc.d)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal.h)(0x61132E5A)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_conf.h)(0x60386F40)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_syscon.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_def.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\system_cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rcc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_gpio.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_cortex.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_adc.h)(0x61132F00)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_crc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_flash.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_i2c.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_iwdg.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pwr.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rtc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_spi.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_tim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_basetim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lptim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_uart.h)(0x61132DCC)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lpuart.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_wwdg.h)(0x61133366)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_beep.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_awk.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lvd.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_vc.h)(0x611469E2)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_clktrim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pca.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_owire.h)(0x60386F12)
-F (D:/Keil_v5/ARM/Pack/Chipsea/CS32L010_DFP/1.0.4/Device/HAL_Driver/src/cs32l010_hal_wwdg.c)(0x60386F16)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../../../../Drivers/CMSIS/Include -I ..\Common -I ../../../../Drivers/CS32L010_HAL_Driver/Inc -I ../../../../Drivers/CMSIS/Device/CHIPSEA/CS32L010/Include-I.\RTE\_Project-ID:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER-o .\project\cs32l010_hal_wwdg.o --omf_browse .\project\cs32l010_hal_wwdg.crf --depend .\project\cs32l010_hal_wwdg.d)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal.h)(0x61132E5A)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_conf.h)(0x60386F40)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_syscon.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_def.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\system_cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rcc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_gpio.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_cortex.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_adc.h)(0x61132F00)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_crc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_flash.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_i2c.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_iwdg.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pwr.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rtc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_spi.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_tim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_basetim.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lptim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_uart.h)(0x61132DCC)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lpuart.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_wwdg.h)(0x61133366)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_beep.h)(0x60386F12)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_awk.h)(0x60386F44)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_lvd.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_vc.h)(0x611469E2)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_clktrim.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_pca.h)(0x60386F3E)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_owire.h)(0x60386F12)
-F (RTE/Device/CS32L010/startup_cs32l010.s)(0x5F856440)(--cpu Cortex-M0+ -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_Project-ID:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include--pd "__UVISION_VERSION SETA 537" --pd "_RTE_ SETA 1" --pd "_RTE_ SETA 1"--list startup_cs32l010.lst --xref -o .\project\startup_cs32l010.o --depend .\project\startup_cs32l010.d)
-F (RTE/Device/CS32L010/system_cs32l010.c)(0x5F856440)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../../../../Drivers/CMSIS/Include -I ..\Common -I ../../../../Drivers/CS32L010_HAL_Driver/Inc -I ../../../../Drivers/CMSIS/Device/CHIPSEA/CS32L010/Include-I.\RTE\_Project-ID:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc-ID:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include-D__UVISION_VERSION="537" -D_RTE_ -D_RTE_ -DUSE_HAL_DRIVER-o .\project\system_cs32l010.o --omf_browse .\project\system_cs32l010.crf --depend .\project\system_cs32l010.d)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\Include\system_cs32l010.h)(0x5F856440)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_rcc.h)(0x60386F14)
-I (D:\Keil_v5\ARM\Pack\Chipsea\CS32L010_DFP\1.0.4\Device\HAL_Driver\inc\cs32l010_hal_def.h)(0x60386F12)
-I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)

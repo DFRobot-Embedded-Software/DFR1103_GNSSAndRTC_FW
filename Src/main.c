@@ -30,31 +30,10 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* Private function prototypes -----------------------------------------------*/
-/**
-  * @brief 获取充电芯片sd3031的数据, 存入设置好的cs32从机寄存器中
-  * @retval None
-  */
-void updateSlaveReg(void)
-{
-  // // 恢复系统滴答定时器
-  // HAL_ResumeTick();
-  // // 设置ADC单次测量模式, 并开始测量
-  // uint8_t wData[2] = {0xFF, 0x60};
-  // sd3031WriteReg(SD3031_REG_ADC_OPTION, wData, 2);
-  // // 等待ADC转换完成
-  // HAL_Delay(300);
-  // // 一次性读
-  // sd3031ReadReg(SD3031_REG_CHARGER_STATUS, regBuf, CS32_I2C_ADC_VSYS_REG + 1);
-  // /* Suspend systemtick to avoid system to be waked up by systemtick */
-  // HAL_SuspendTick();
-
-}
-
 void userSetHandle(uint8_t r_address, uint8_t length)
 {
   uint8_t rtcWriteReg = 0;
   uint8_t rtcWriteLen = 0;
-  // printf("userSetHandle !\r\n");
   printf("r_address = %u, length = %u\r\n", r_address, length);
   while (length--) {
     switch (r_address) {
@@ -79,9 +58,6 @@ void userSetHandle(uint8_t r_address, uint8_t length)
       uint8_t len = regBuf[REG_RTC_READ_LEN];   // 要读的寄存器地址
       if ((reg >= 0x30) && (reg <= 0x79) && (len != 0))
         SD3031readReg(reg - 0x30, &regBuf[reg], len);   // 获取该寄存器最新值
-      // regBuf[REG_RTC_READ_REG] = 0;
-      // regBuf[REG_RTC_READ_LEN] = 0;
-      // printf("reg = %u, len = %u\r\n", reg, len);
       break;
     }
     case REG_CALIB_RTC_REG:
@@ -91,12 +67,6 @@ void userSetHandle(uint8_t r_address, uint8_t length)
         minTimerFlag = 0;
       }
       break;
-      // case REG_RTC_WRITE_REG: {
-      //   uint8_t reg = regBuf[REG_RTC_WRITE_REG];   // 要读的寄存器地址
-      //   if((reg >= 0x30) && (regBuf[REG_RTC_WRITE_LEN] != 0))
-      //     SD3031writeReg(reg - 0x30, regBuf[reg], regBuf[REG_RTC_WRITE_LEN]);   // 获取该寄存器最新值
-      //   break;
-      // }
     default:
       if (r_address >= 0x30) {
         if (rtcWriteReg < 0x30) {
@@ -189,15 +159,6 @@ int main(void)
 
     // rtu 串口解析
     if (cs32TimerFlag > 5) {// 5ms
-      // if (cs32RxCount >= 3) {
-      //   annysis_uart0_command();
-      // } else {
-      //   cs32TimerFlag = 0;
-      // }
-      // while (cs32RxCount >= 3) {
-      //   annysis_uart0_command();
-      // }
-      // cs32TimerFlag = 0;
       if (cs32RxCount) {
         while (cs32RxCount >= 3) {
           annysis_uart0_command();
