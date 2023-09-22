@@ -14,10 +14,13 @@ volatile uint16_t l76kRxCount = 0;
 static uint8_t cs32RxData = 0, l76kRxData = 0;
 
 /**
- * @brief rtu 命令解析
- *
- * @param data rtu 数据
- * @param datalen rtu 数据的长度
+ * @brief 串口数据解析
+ * @details 串口数据分为如下读写两类:
+ * @n 写操作 :
+ * @n 发送 : UART0_WRITE_REGBUF + 寄存器地址 + 写入数据长度 + 对应长度的数据字节
+ * @n 读操作 :
+ * @n 如果是读取RTC模块的数据，需要先将(寄存器地址 + 读取数据长度) 写入(通过写操作) (REG_RTC_READ_REG + REG_RTC_READ_LEN)，以更新对应寄存器数据
+ * @n 发送 : UART0_READ_REGBUF + 寄存器地址 + 读取数据长度 ; 接收 : 读取长度的字节
  */
 void annysis_uart0_command(void)
 {

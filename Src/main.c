@@ -1,6 +1,6 @@
 /*!
  * @file  main.c
- * @brief  这是一个为LP专用的UPS的固件
+ * @brief  这是一个GNSS&RTC模块（DFR1103）专用的固件
  * @details  cs32 用硬件 i2c 、 uart0 和主控通信;
  * @n  cs32 用软件 i2c 与 SD3031 通信, 用 uart1 和 L76K 通信。
  * @n  同时 cs32 用 PA3 控制 L76K_PWR; 用 PB5 控制 L76K_RST;
@@ -103,7 +103,7 @@ int main(void)
 
   /* Configure uart1 for printf */
   // LogInit();
-  // printf("DFRobot LP_UPS !\r\n");
+  // printf("DFRobot GNSS&RTC !\r\n");
   // printf("Printf success using UART1, PD5-TXD, PD6-RXD\r\n");
   // printf("Printf success using UART0, PA2-TXD, PA1-RXD\r\n");
 
@@ -157,7 +157,7 @@ int main(void)
       }
     }
 
-    // rtu 串口解析
+    // 串口解析
     if (cs32TimerFlag > 5) {// 5ms
       if (cs32RxCount) {
         while (cs32RxCount >= 3) {
