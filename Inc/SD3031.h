@@ -63,8 +63,8 @@ extern "C" {
      * @brief  e24hours, e12hours
      */
     typedef enum {
-        e24hours = 0,
-        e12hours = 1
+        e12hours = 0,
+        e24hours = 1 << 7,
     }eHours_t;
 
     /**

@@ -126,7 +126,7 @@ int main(void)
   sd3031Init();
 
   /* uart0 和主控通信 */
-  initUart0ForCS32(115200);
+  initUart0ForCS32(57600);   // uno软串口，接收115200数据会出现大量错误
 
   /* uart1 和 L76K 通信 */
   initUart1ForL76K(9600);   // 因为gps传感器默认是9600的波特率
@@ -140,8 +140,10 @@ int main(void)
   // 恢复系统滴答定时器
   // HAL_ResumeTick();
 
-  // 每次上电启动时, 执行一次GNSS校时
-  regBuf[REG_CALIB_STATUS_REG] = eUnderCalib;
+  // 每次上电启动时, 获取一次RTC芯片的实时时钟数据
+  SD3031readReg(SD3031_REG_SEC, &regBuf[0x30], 7);
+  // // 每次上电启动时, 执行一次GNSS校时
+  // regBuf[REG_CALIB_STATUS_REG] = eUnderCalib;
   while (1) {
     // i2c 中断 费时处理函数 userSetHandle
     if (userSetFlag == 1) {
@@ -160,8 +162,9 @@ int main(void)
     // 串口解析
     if (cs32TimerFlag > 5) {// 5ms
       if (cs32RxCount) {
-        while (cs32RxCount >= 3) {
+        while ((cs32RxCount - cs32HandleCount) >= 3) {
           annysis_uart0_command();
+          HAL_Delay(1);
         }
       } else {
         cs32TimerFlag = 0;

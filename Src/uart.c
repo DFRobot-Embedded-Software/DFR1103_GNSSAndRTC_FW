@@ -13,6 +13,8 @@ volatile uint8_t cs32RxCount = 0, cs32HandleCount = 0;
 volatile uint16_t l76kRxCount = 0;
 static uint8_t cs32RxData = 0, l76kRxData = 0;
 
+volatile uint8_t uart0OnTx = 0, uart1OnTx = 0;
+
 /**
  * @brief 串口数据解析
  * @details 串口数据分为如下读写两类:
@@ -28,9 +30,10 @@ void annysis_uart0_command(void)
   uint8_t type = data[0];
   uint8_t reg = data[1];
   uint8_t len = data[2];
+  cs32HandleCount += 3;
   switch (type) {
   case UART0_READ_REGBUF: {
-    if ((cs32RxCount - cs32HandleCount) >= 3) {   // 防止uart数据不完整
+    // if ((cs32RxCount - cs32HandleCount) >= 3) {   // 防止uart数据不完整
       if (reg == REG_ALL_DATA) {
         uart0Send((uint8_t*)(&l76kUart1Buffer[gps_offset]), len);
         gps_offset += len;
@@ -41,18 +44,18 @@ void annysis_uart0_command(void)
           regBuf[REG_CALIB_STATUS_REG] = eCalibNone;   // 消除校准完成的标志位
         }
       }
-      cs32HandleCount += 3;
-    }
+    // }
     break;
   }
   case UART0_WRITE_REGBUF:
-    if (cs32RxCount - cs32HandleCount >= (3 + len)) {   // 防止uart数据不完整
+    if (cs32RxCount - cs32HandleCount >= len) {   // 防止uart数据不完整
       memcpy(&regBuf[reg], &data[3], len);
       userSetHandle(reg, len);
-      cs32HandleCount += (3 + len);
+      cs32HandleCount += len;
+      break;
     }
-    break;
   default:
+    cs32HandleCount -= 3;   // 数据可能不完整, 没有有效处理数据
     break;
   }
 
@@ -71,10 +74,10 @@ void annysis_uart0_command(void)
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef* huart)
 {
   if (&huart0 == huart) {
-    if (cs32RxCount < UART0_MAX_LEN) {
-      cs32Uart0Buffer[cs32RxCount++] = cs32RxData;
+    if (cs32RxCount >= UART0_MAX_LEN) {
       cs32RxCount %= UART0_MAX_LEN;
     }
+    cs32Uart0Buffer[cs32RxCount++] = cs32RxData;
     cs32TimerFlag = 0;
     HAL_UART_Receive_IT(&huart0, (uint8_t*)&cs32RxData, 1);
   } else if (&huart1 == huart) {
@@ -87,13 +90,32 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef* huart)
   }
 }
 
+/**
+  * @brief  Tx Transfer completed callbacks.
+  * @param  huart: pointer to a UART_HandleTypeDef structure that contains
+  *                the configuration information for the specified UART module.
+  * @retval None
+  */
+void HAL_UART_TxCpltCallback(UART_HandleTypeDef *huart)
+{
+  if (&huart0 == huart) {
+    uart0OnTx = 0;
+  } else if (&huart1 == huart) {
+    uart1OnTx = 0;
+  }
+}
+
 void uart0Send(uint8_t* data, uint8_t len)
 {
+  while (uart0OnTx);
+  uart0OnTx = 1;
   HAL_UART_Transmit_IT(&huart0, data, len);
 }
 
 void uart1Send(uint8_t* data, uint8_t len)
 {
+  while (uart1OnTx);
+  uart1OnTx = 1;
   HAL_UART_Transmit_IT(&huart1, data, len);
 }
 

@@ -354,7 +354,7 @@ void anaysis_gps_data(uint8_t* data, uint16_t datalen)
 
             regBuf[REG_USE_STAR] = my_gps_data.numSatUsed;
 
-            if (my_gps_data.lat < -0.00001 && my_gps_data.lat > 0.00001) {   // 当获取卫星定位信息不为零时才会校准
+            if (my_gps_data.lat < -0.00001 || my_gps_data.lat > 0.00001) {   // 当获取卫星定位信息不为零时才会校准
                 if (eUnderCalib == regBuf[REG_CALIB_STATUS_REG]) {
                     setTime(my_gps_data.year, my_gps_data.month, my_gps_data.date, \
                         my_gps_data.hour, my_gps_data.minute, my_gps_data.second);

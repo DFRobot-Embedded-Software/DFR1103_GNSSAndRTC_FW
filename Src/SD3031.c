@@ -11,6 +11,7 @@
 #include "SD3031.h"
 #include "DFRobot_SofterIIC.h"
 #include "i2cSlave.h"
+#include "reg.h"
 
 eHours_t _mode = e24hours;
 
@@ -71,6 +72,8 @@ void setTime(uint16_t year, uint8_t month, uint8_t day, uint8_t hour, uint8_t mi
 {
     uint8_t _hour = 0, _year = 0, buffer[7], week = 0;
     _year = year - 2000;
+    // 因为只用了这个接口，所以只改了这里的_mode
+    _mode = (eHours_t)(regBuf[SD3031_REG_HOUR + 0x30] & 0x80);
     if (_mode == e24hours) {
         _hour = bin2bcd(hour) | 0x80;
     } else {
